@@ -3,3 +3,4 @@ E:\C#\WPF_UDP_Client_Server_POC\UDPService\bin\Debug\UDPService.pdb
 E:\C#\WPF_UDP_Client_Server_POC\UDPService\obj\Debug\UDPService.csproj.CoreCompileInputs.cache
 E:\C#\WPF_UDP_Client_Server_POC\UDPService\obj\Debug\UDPService.dll
 E:\C#\WPF_UDP_Client_Server_POC\UDPService\obj\Debug\UDPService.pdb
+E:\C#\WPF_UDP_Client_Server_POC\UDPService\obj\Debug\UDPService.csproj.AssemblyReference.cache

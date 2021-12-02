@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_UDPServer"
         mc:Ignorable="d"
-        Title="UDPServer" Height="350" Width="350">
+        Title="UDPServer"
+        Height="350"
+        Width="350"
+        Closing="Window_Closing">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"></RowDefinition>

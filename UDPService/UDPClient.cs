@@ -44,5 +44,10 @@ namespace UDPService
             var s = new ArraySegment<byte>(data);
             await _socket.SendToAsync(s, SocketFlags.None, _ep);
         }
+
+        public void Close()
+        {
+            _socket.Close();
+        }
     }
 }

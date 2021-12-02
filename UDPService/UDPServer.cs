@@ -50,6 +50,11 @@ namespace UDPService
             });
         }
 
+        public void Close()
+        {
+            _socket.Close();
+        }
+
         //public async Task SendTo(EndPoint recipient, byte[] data)
         //{
         //    var s = new ArraySegment<byte>(data);

@@ -72,5 +72,10 @@ namespace WPF_UDPServer
             tb.Text = _counter.ToString();
             sp_messagesShower.Children.Add(tb);
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            _server.Close();
+        }
     }
 }

@@ -51,5 +51,10 @@ namespace WPF_UDPClient
         {
             _ = SendMessageAsync();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            _client.Close();
+        }
     }
 }
